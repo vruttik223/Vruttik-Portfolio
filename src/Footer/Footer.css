@@ -1,0 +1,224 @@
+.footer {
+  background: #F1F1F1; /* lightTheme.background */
+  padding-bottom: 30px;
+  color: #333333; /* lightTheme.text_primary */
+}
+
+.footer .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+  flex: 1 1 25rem;
+  margin: 30px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 25px;
+  color: #333333; /* lightTheme.text_primary */
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.footer .box-container .box p {
+  font-size: 25px;
+  color: #666666; /* lightTheme.text_secondary */
+  padding: 5px 0;
+  text-transform: none;
+}
+
+.footer .box-container .box p i {
+  padding-right: 10px;
+  color: #007BFF; /* lightTheme.primary */
+}
+
+.footer .box-container .box a {
+  font-size: 20px;
+  color: #007BFF; /* lightTheme.primary */
+  padding: 5px 0;
+  display: block;
+}
+
+.footer .box-container .box a:hover {
+  color: #0056b3; /* lightTheme.primary_dark */
+}
+
+.footer .box-container .box .share {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.footer .box-container .box .share a {
+  height: 50px;
+  width: 50px;
+  padding: 13px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+  transition: 0.2s;
+  background: #007BFF; /* lightTheme.primary */
+  color: #FFFFFF; /* lightTheme.text_on_primary */
+  border: none;
+}
+
+.footer .box-container .box .share a:hover {
+  background: #0056b3; /* lightTheme.primary_dark */
+  transform: scale(0.98);
+  border: 1px solid #0056b3; /* lightTheme.primary_dark */
+  color: #FFFFFF; /* lightTheme.text_on_primary */
+}
+
+.footer .credit {
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #333333; /* lightTheme.text_primary */
+  border-top: 2px solid #ccc; /* lightTheme.border */
+}
+
+.footer .credit a {
+  color: #007BFF; /* lightTheme.primary */
+}
+
+.footer .fa {
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 25px;
+  animation: pound 0.35s infinite alternate;
+}
+
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer .box-container .box {
+    margin: 20px;
+  }
+  .footer .box-container .box p {
+    padding: 10px;
+  }
+  .footer .box-container .box .share a {
+    padding: 12px;
+  }
+}
+/* .footer {
+  background:#090917;
+  padding-bottom: 30px ;
+  color: #fff;
+}
+
+.footer .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+  flex: 1 1 25rem;
+  margin: 30px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.footer .box-container .box p {
+  font-size: 25px;
+  color: #ccc;
+  padding: 5px 0;
+  text-transform: none;
+}
+
+.footer .box-container .box p i {
+  padding-right: 10px;
+  color: #ffae00;
+}
+
+.footer .box-container .box a {
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+  padding: 5px 0;
+  display: block;
+}
+
+.footer .box-container .box a:hover {
+  color: #854CE6;
+}
+
+.footer .box-container .box .share {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.footer .box-container .box .share a {
+  height: 50px;
+  width: 50px;
+  padding: 13px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+  transition: 0.2s;
+  background: rgb(230, 230, 230);
+  color: #02094b;
+  border: none;
+}
+
+.footer .box-container .box .share a:hover {
+  background: transparent;
+  transform: scale(0.98);
+  border: 1px solid rgb(180, 178, 178);
+  color: #854CE6;
+}
+
+.footer .credit {
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  border-top: 2px solid #fff3;
+}
+
+.footer .credit a {
+  color: #ffae00;
+}
+
+.footer .fa {
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 25px;
+  animation: pound 0.35s infinite alternate;
+}
+
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer .box-container .box {
+    margin: 20px;
+  }
+  .footer .box-container .box p {
+    padding: 10px;
+  }
+  .footer .box-container .box .share a {
+    padding: 12px;
+  }
+} */

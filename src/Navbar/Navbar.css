@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 10px 20px;
+  }
+  h1{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color:#111111;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    color:#111111;
+    transition: 0.4s;
+
+  }
+  .menu a:hover{
+    color:#854CE6;
+  }
+  /* .menu a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #2b469e;
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0%;
+  }
+  .menu a:hover::after{
+    width: 100%;
+  } */
+  
+  .nav {
+    padding: 10px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+  top: 0;
+  z-index: 10;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .responsive {
+    display: none;
+    color: #111111;
+  }
+  
+  
+  .github{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff!important;
+    background-color: #854CE6;
+   
+  }
+  i{
+    font-size: 1.25rem
+    
+    ;
+  }
+  
+  @media (max-width: 600px) {
+    .search {
+      display: none;
+    }
+    .responsive {
+      display: block;
+      /* color: #111111; */
+
+    }
+    .menu {
+      position: absolute;
+      top: 35px;
+      background-color: rgb(124, 124, 124);
+      flex-direction: column;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      display: none;
+    }
+    .menuopen {
+      display: block;
+    }
+    .signup-btn {
+      display: none;
+    }
+    .signup {
+      display: block;
+    }
+   
+  }
+  
